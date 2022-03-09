@@ -1,0 +1,93 @@
+#secton1{
+    width: 50%;
+    display:inline-flex;
+    position: relative;
+    height: 500px;
+}
+#secton2{
+    width: 45%;
+    display:inline-flex;
+    float:right;
+    height: 500px;
+    position: relative;
+}
+#secton3{
+    width:45%;
+    display:inline-flex;
+    float:right;
+    height:500px;
+    position: relative;
+}
+.card1{
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    height: 450px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    border-radius: 8px;
+    margin-left: 500px;
+    padding: 15px;
+    margin-top:50px; 
+}
+.card2{
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    border-radius: 8px;
+    margin: 25px; 
+}
+.card1:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card2:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card2Img{
+    height: 270px;
+    width:auto;
+}
+#header1{
+    padding:10px;
+    color:greenyellow;
+    font-size: 20px;
+}
+.card2Header{
+    text-align: center;
+    font-size: 18px;
+    /* padding: 5px; */
+    margin-top: 1px;
+    background-color: aqua;
+}
+#buttonC1B1{
+    font-size: 20px;
+    padding:10px;
+    background-color:darkblue;
+    margin-top: 3px;
+    margin-bottom: 3px;  
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 30px;
+    width: 80%;
+}
+.buttonC2B1{
+    font-size: 20px;
+    padding: 10px;
+    background-color: aquamarine;
+    margin: 3px;
+    border-radius: 30px;
+}
+
+.buttonC2B2{
+    font-size: 20px;
+    padding: 10px;
+    background-color:darkblue;
+    margin:3px;
+    border-radius: 30px;
+}
