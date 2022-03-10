@@ -1,20 +1,26 @@
 #secton1{
-    width: 50%;
-    display:inline-flex;
+    width: 30%;
+    /* display:inline-flex; */
+    display: inline-block;
     position: relative;
+    float:left;
     height: 500px;
 }
 #secton2{
-    width: 45%;
-    display:inline-flex;
-    float:right;
+    width: 60%;
+    /* display:inline-flex; */
+    display: inline-block;
+     float:right; 
+    /* text-align: right; */
     height: 500px;
     position: relative;
 }
 #secton3{
-    width:45%;
-    display:inline-flex;
+    width:60%;
+    /* display:inline-flex; */
+    display: inline-block;
     float:right;
+    /* text-align: right; */
     height:500px;
     position: relative;
 }
@@ -28,7 +34,7 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
     transition: 0.3s;
     border-radius: 8px;
-    margin-left: 500px;
+    margin-left: 250px;
     padding: 15px;
     margin-top:50px; 
 }
@@ -90,4 +96,22 @@
     background-color:darkblue;
     margin:3px;
     border-radius: 30px;
+}
+#sec2card1{
+    float:left;
+}
+#sec2card2{
+    float:left;
+}
+#sec2card3{
+    float:left;
+}
+#sec3card1{
+    float:left;
+}
+#sec3card2{
+    float:left;
+}
+#sec3card3{
+    float:left;
 }
